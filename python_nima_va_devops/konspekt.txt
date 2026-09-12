@@ -1,7 +1,0 @@
-Konspekt — python3 --version va which python3 natijalari
-
-$ python3 --version
-(natijani shu yerga yozing)
-
-$ which python3
-(natijani shu yerga yozing)
