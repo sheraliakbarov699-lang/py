@@ -1,0 +1,10 @@
+
+Python interpretatorining turli implementatsiyalari
+Python — bu til spetsifikatsiyasi bo'lib, uni bir nechta xil dasturiy vositalar (interpretatorlar) orqali amalga oshirish mumkin. Har bir implementatsiya o'ziga xos maqsad va afzalliklarga ega.
+CPython — Python tilining asosiy va eng keng tarqalgan implementatsiyasi bo'lib, C dasturlash tilida yozilgan. Python.org saytidan yuklab olinadigan standart interpretator aynan shu hisoblanadi. CPython bayt-kodga (bytecode) kompilyatsiya qiladi va uni virtual mashina orqali bajaradi. Uning asosiy kamchiligi — GIL (Global Interpreter Lock) mavjudligi bo'lib, bu bir vaqtning o'zida faqat bitta thread'ning Python bayt-kodini bajarishiga imkon beradi, natijada ko'p yadroli protsessorlardan to'liq foydalanish qiyinlashadi.
+PyPy — Python'da yozilgan alternativ implementatsiya bo'lib, o'zining JIT (Just-In-Time) kompilyatori tufayli ancha yuqori tezlikka ega. Ko'pgina hollarda PyPy CPython'ga qaraganda bir necha barobar tezroq ishlaydi, chunki tez-tez bajariladigan kod qismlarini ishga tushirish vaqtida mashina kodiga aylantiradi. Ammo ba'zi C kengaytmalari (C extensions) bilan to'liq mos kelmasligi mumkin.
+Boshqa implementatsiyalar:
+Jython — Java virtual mashinasida (JVM) ishlaydigan implementatsiya, Java kutubxonalari bilan integratsiya imkonini beradi.
+IronPython — .NET platformasi uchun mo'ljallangan implementatsiya.
+MicroPython — mikrokontrollerlar va cheklangan resursli qurilmalar uchun yaratilgan yengil implementatsiya.
+Cython — Python kodini C kodiga aylantirib, tezlikni oshirishga xizmat qiladi.

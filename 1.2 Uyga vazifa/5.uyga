@@ -1,0 +1,7 @@
+## Qilingan ishlar:
+Crontab orqali `3-script.py` faylini har minutda avtomatik ishga tushirish uchun quyidagi qator qo'shildi:
+`* * * * * /usr/bin/python3 /path/to/3-script.py start >> /path/to/output.log 2>&1`
+
+## Yuzaga kelgan qiyinchiliklar:
+1. **Atrof-muhit (Environment PATH) muammosi:** Crontab fonda ishlagani uchun tizimdagi oddiy foydalanuvchi `PATH` va virtuall muhit (`venv`) yo'llarini avtomatik ko'rmaydi.
+2. **Absolyut yo'l (Absolute Path) ishlatish shartligi:** Fayllarga nisbiy yo'l (`./script.py`) berilsa ishlamaydi, mutlaq yo'l (`/Users/.../script.py`) va Python'ning aniq ko'rsatilgan interpreter yo'lidan foydalanish talab etiladi.

@@ -1,0 +1,5 @@
+| Vositachi | Afzalliklari | Kamchiliklari |
+| :--- | :--- | :--- |
+| **venv** | Python tarkibiga o'rnatilgan (standart kiritilgan), qo'shimcha yuklash shart emas, oddiy va engil. | Har xil Python versiyalarini boshqarolmaydi, bog'liqliklarni (dependency) boshqarish juda oddiy. |
+| **virtualenv** | Eski Python versiyalarini va tezroq muhit yaratishni qo'llab-quvvatlaydi, imkoniyati keng. | Tashqi paket sifatida o'rnatilishi kerak, o'rganish va sozlash biroz vaqt oladi. |
+| **Poetry** | Bog'liqliklarni (dependencies) mukammal boshqaradi, `pyproject.toml` orqali proyekt va paket loyihalashni osonlashtiradi. | Boshlang'ich o'rganish murakkabroq, kichik va oddiy loyihalar uchun mos kelmasligi mumkin. |
